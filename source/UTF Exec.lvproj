@@ -10,17 +10,18 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="subvi" Type="Folder">
+			<Item Name="get result counts.vi" Type="VI" URL="../get result counts.vi"/>
+			<Item Name="get result details.vi" Type="VI" URL="../get result details.vi"/>
+			<Item Name="get run time total.vi" Type="VI" URL="../get run time total.vi"/>
+		</Item>
 		<Item Name="create junit report.vi" Type="VI" URL="../create junit report.vi"/>
-		<Item Name="get result counts.vi" Type="VI" URL="../get result counts.vi"/>
-		<Item Name="get run time total.vi" Type="VI" URL="../get run time total.vi"/>
 		<Item Name="run utf and report.vi" Type="VI" URL="../run utf and report.vi"/>
-		<Item Name="utf to junit.vi" Type="VI" URL="../utf to junit.vi"/>
+		<Item Name="utf_wrapper.vi" Type="VI" URL="../utf_wrapper.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="JUnit API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/JUnit Results API/JUnit API.lvlib"/>
-				<Item Name="NI_UnitTestFramework.lvlib" Type="Library" URL="/&lt;vilib&gt;/utf/NI_UnitTestFramework.lvlib"/>
 				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="Simple XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Simple XML/Simple XML.lvlib"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
