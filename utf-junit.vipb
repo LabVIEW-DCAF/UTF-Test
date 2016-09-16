@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-09-16 11:52:22" Modified_Date="2016-09-16 13:29:20" Creator="Lee Harding" Comments="" ID="01504b73e7a6e3f330c661028d2ef4bb">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-09-16 11:52:22" Modified_Date="2016-09-16 15:53:15" Creator="Lee Harding" Comments="" ID="3d2fe391f1354d008507f86e20f7b1a3">
   <Library_General_Settings>
     <Package_File_Name/>
     <Library_Version>1.0.0.1</Library_Version>
@@ -30,7 +30,7 @@
     <VI_Package_Configuration_File>utf-junit.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>Generates a JUnit-compatible report file from LabVIEW Unit Test Framework results</One_Line_Description_Summary>
-      <Description>Generates a JUnit-compatible report file from LabVIEW Unit Test Framework results.
+      <Description>Generates a JUnit-compatible report file from LabVIEW Unit Test Framework results.  Format is compatible with Jenkins for use in continuous integration systems.
 
 Tested with LabVIEW 2013</Description>
       <Copyright/>
@@ -139,9 +139,9 @@ Tested with LabVIEW 2013</Description>
         <Syncing_MNU_file/>
       </Controls_Palette_Information>
       <Functions_Palette_Information>
-        <Virtual_Palette_Base_Path>Functions</Virtual_Palette_Base_Path>
-        <Palette_Disk_Base_Path>&lt;menus&gt;\Categories</Palette_Disk_Base_Path>
-        <Syncing_MNU_file/>
+        <Virtual_Palette_Base_Path>Functions\Addons\National Instruments</Virtual_Palette_Base_Path>
+        <Palette_Disk_Base_Path>&lt;vi.lib&gt;\addons\National Instruments</Palette_Disk_Base_Path>
+        <Syncing_MNU_file>&lt;vi.lib&gt;\addons\National Instruments\dir.mnu</Syncing_MNU_file>
       </Functions_Palette_Information>
       <Apply_Short_Names_to_VI_Titles>false</Apply_Short_Names_to_VI_Titles>
       <Apply_Short_Names_to_VI_Titles_2>false</Apply_Short_Names_to_VI_Titles_2>
@@ -223,7 +223,7 @@ Tested with LabVIEW 2013</Description>
         <Path>source\run utf and report.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CA0FDCFD8769F2B0FA4D7FF49B2BA76B</GUID>
+      <GUID>247DA59265C103399482675C43B314AD</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
