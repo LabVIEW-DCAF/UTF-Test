@@ -1,11 +1,11 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-09-16 11:52:22" Modified_Date="2016-09-16 11:55:08" Creator="Lee Harding" Comments="" ID="24986873e0e91dfaf592f7ddcc3a771d">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-09-16 11:52:22" Modified_Date="2016-09-16 13:29:20" Creator="Lee Harding" Comments="" ID="01504b73e7a6e3f330c661028d2ef4bb">
   <Library_General_Settings>
     <Package_File_Name/>
     <Library_Version>1.0.0.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
-    <Company_Name>NI</Company_Name>
+    <Company_Name>National Instruments</Company_Name>
     <Library_Summary/>
     <Library_License>Apache 2.0</Library_License>
     <Package_LabVIEW_Version>13.0</Package_LabVIEW_Version>
@@ -42,7 +42,7 @@ Tested with LabVIEW 2013</Description>
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;vi.lib&gt;\NI\UTF Junit Report</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
@@ -110,9 +110,6 @@ Tested with LabVIEW 2013</Description>
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Compile_Exclusions>
-        <Path/>
-      </Compile_Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -134,7 +131,7 @@ Tested with LabVIEW 2013</Description>
     <Palette_Sets>
       <Palette_Set_Name>Default</Palette_Set_Name>
       <Use_Custom_Category>false</Use_Custom_Category>
-      <Custom_Category_Name/>
+      <Custom_Category_Name>NI</Custom_Category_Name>
       <Custom_Category_Icon>00000176002900000012000000020000000D00FFFFFF000100000000000A00000008000000000020002000280000008F000000690000000E0007001300180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000000000FFFFFF000000FFFFFF000000000000FFFFFF000000FFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF07FFCFFFAFFFAFFFAFFFAFFF07FF002900000012000000020000000D00CCCCFF000100000000000A00000008001900000020002000280000008F000000690019000E0020001300180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C00006C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF07FFCFFFAFFFAFFFAFFFAFFF07FF</Custom_Category_Icon>
       <Controls_Palette_Information>
         <Virtual_Palette_Base_Path>Controls</Virtual_Palette_Base_Path>
@@ -226,7 +223,7 @@ Tested with LabVIEW 2013</Description>
         <Path>source\run utf and report.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1EA092D3C81A1DF21149FE4D23D7E862</GUID>
+      <GUID>CA0FDCFD8769F2B0FA4D7FF49B2BA76B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
