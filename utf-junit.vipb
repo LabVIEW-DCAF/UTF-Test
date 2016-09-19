@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-09-16 11:52:22" Modified_Date="2016-09-19 10:25:07" Creator="Lee Harding" Comments="" ID="b7c21e985fe50e4a00a3bcb4ad36d1e5">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-09-16 11:52:22" Modified_Date="2016-09-19 14:30:30" Creator="Lee Harding" Comments="" ID="ea01e18fa757a0a53b128c113cd1c5b2">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_UTF_Junit_Report</Package_File_Name>
     <Library_Version>1.0.0.1</Library_Version>
@@ -108,7 +108,7 @@ Tested with LabVIEW 2013</Description>
       <Namespace_Overrides>
         <Path>.</Path>
         <Namespace_Type>Suffix</Namespace_Type>
-        <Namespace>Release</Namespace>
+        <Namespace/>
       </Namespace_Overrides>
       <Namespace_Overrides>
         <Path>test project</Path>
@@ -228,7 +228,7 @@ Tested with LabVIEW 2013</Description>
         <Path>source\run utf and report.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>51CECF27B0CB4AD593356E426E2585E5</GUID>
+      <GUID>C5107E13754AD43F0858E0436A2F50C3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
