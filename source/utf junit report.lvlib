@@ -11,5 +11,4 @@
 	</Item>
 	<Item Name="create junit report.vi" Type="VI" URL="../create junit report.vi"/>
 	<Item Name="run utf and report.vi" Type="VI" URL="../run utf and report.vi"/>
-	<Item Name="utf_wrapper.vi" Type="VI" URL="../utf_wrapper.vi"/>
 </Library>
