@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-09-16 11:52:22" Modified_Date="2017-05-17 17:16:35" Creator="Lee Harding" Comments="" ID="160916903888b3b14331973402e3a0c3">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-09-16 11:52:22" Modified_Date="2017-05-18 10:52:05" Creator="Lee Harding" Comments="" ID="07f7c437ed5e6c0a175a7d85a3902b37">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_UTF_Junit_Report</Package_File_Name>
-    <Library_Version>1.0.1.41</Library_Version>
+    <Library_Version>1.0.1.42</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -35,7 +35,7 @@
 Tested with LabVIEW 2013</Description>
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
-      <URL/>
+      <URL>https://github.com/LabVIEW-DCAF/UTF-Test</URL>
       <Release_Notes>Initial release</Release_Notes>
     </Description>
     <Destinations>
@@ -228,7 +228,7 @@ Tested with LabVIEW 2013</Description>
         <Path>source\run utf and report.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4AA77397EC954AB48ECB30076068CDBC</GUID>
+      <GUID>FB77A3310790053B4BBE7EC799C346F5</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
